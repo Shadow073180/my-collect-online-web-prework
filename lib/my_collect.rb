@@ -10,7 +10,7 @@ end
 
 names = ["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]
 $names = []
-$languages = []
+
 z = 0 
 
   if z < 1
