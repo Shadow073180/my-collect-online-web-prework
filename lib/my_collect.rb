@@ -13,7 +13,7 @@ $names = []
 $languages = []
 z = 0 
 
-  while z < 1
+  if z < 1
     my_collect(names) do |x|
     $names =$names.push(x.split(" ").first)
     return $names
@@ -22,7 +22,7 @@ z = 0
     my_collect(languages) do |y|
       $languages.push(y.upcase)
       return $languages
-  end
+  
   end
 end
 
