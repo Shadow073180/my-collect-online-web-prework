@@ -7,7 +7,7 @@ def my_collect(array)
   return $names
 end
 
-languages = ["ruby", "javascript", "python", "objective-c"]
+
 names = ["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]
 $names = []
 $languages = []
@@ -16,15 +16,7 @@ z = 0
   if z < 1
     my_collect(names) do |x|
     $names =$names.push(x.split(" ").first)
-    return $names
-    z = z + 1 
-  else
-    my_collect(languages) do |y|
-      $languages.push(y.upcase)
-      return $languages
-  
-  end
-end
+    
 
 
 
